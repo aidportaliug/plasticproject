@@ -1,0 +1,44 @@
+{
+  "fresh-water": {
+    "instruction": "Place the plastic in fresh water",
+    "hint": "",
+    "icon": "",
+    "float": "veg-oil",
+    "sink": "salt-water",
+    "progressLabel": "Fresh water"
+  },
+  "veg-oil": {
+    "instruction": "Place the plastic in vegetable oil",
+    "hint": "Works best with small pieces of plastics",
+    "icon": "",
+    "float": {
+      "result": "PP"
+    },
+    "sink": "ethanol",
+    "progressLabel": "Vegetable oil"
+  },
+  "ethanol": {
+    "instruction": "Place the plastic in 40–42% ethanol",
+    "hint": "",
+    "icon": "",
+    "float": {
+      "result": "LDPE"
+    },
+    "sink": {
+      "result": "HDPE"
+    },
+    "progressLabel": "Ethanol"
+  },
+  "salt-water": {
+    "instruction": "Place the plastic in salt water",
+    "hint": "4 tablespoons per liter of fresh water",
+    "icon": "",
+    "float": {
+      "result": "PS"
+    },
+    "sink": {
+      "result": "PVC_PET"
+    },
+    "progressLabel": "Salt water"
+  }
+}

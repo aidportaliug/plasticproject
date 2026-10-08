@@ -1,0 +1,124 @@
+{
+  "PET": {
+    "number": 1,
+    "code": "PET",
+    "name": "Polyethylene Terephthalate",
+    "shortDesc": "One of the most commonly recycled plastics, widely used for beverage bottles and food packaging.",
+    "description": "PET is a strong, lightweight plastic that is easy to recycle. It is one of the most commonly collected plastics in recycling programmes worldwide. PET is clear and shatter-resistant, making it a popular choice for packaging.",
+    "uses": [
+      "Water and soft drink bottles",
+      "Food containers and trays",
+      "Peanut butter jars",
+      "Salad dressing bottles",
+      "Polyester clothing and carpet fibres"
+    ],
+    "recycling": "Widely accepted in most curbside recycling programmes. Can be recycled into new bottles, polyester fibre for clothing, carpet, and fleece jackets.",
+    "recyclability": "High"
+  },
+  "HDPE": {
+    "number": 2,
+    "code": "HDPE",
+    "name": "High-Density Polyethylene",
+    "shortDesc": "A sturdy, versatile plastic used for milk jugs, detergent bottles, and pipes. Easily recyclable.",
+    "description": "HDPE is a tough, durable plastic resistant to impact and chemicals. It does not leach harmful chemicals and is considered one of the safest plastics for food contact. Its strength-to-density ratio makes it ideal for heavy-duty containers.",
+    "uses": [
+      "Milk jugs and juice bottles",
+      "Laundry detergent and shampoo bottles",
+      "Grocery bags and shopping bags",
+      "Butter and yogurt tubs",
+      "Toys and playground equipment",
+      "Water and drainage pipes"
+    ],
+    "recycling": "Widely accepted. Recycled into lumber, benches, fencing, picnic tables, pens, floor tiles, and new bottles.",
+    "recyclability": "High"
+  },
+  "PVC": {
+    "number": 3,
+    "code": "PVC",
+    "name": "Polyvinyl Chloride",
+    "shortDesc": "A versatile but difficult-to-recycle plastic used in plumbing pipes, window frames, and flooring.",
+    "description": "PVC is the third most widely produced plastic in the world. It comes in rigid and flexible forms. Rigid PVC is used in construction; flexible PVC is softened with plasticisers and used for packaging and medical products. PVC is durable but challenging to recycle due to its chemical composition.",
+    "uses": [
+      "Plumbing and drainage pipes",
+      "Window frames and siding",
+      "Vinyl flooring and tiles",
+      "Credit and membership cards",
+      "Medical tubing and blood bags",
+      "Garden hoses and inflatable pools"
+    ],
+    "recycling": "Rarely accepted in curbside recycling. Specialised facilities can recycle it into flooring, speed bumps, cables, and mats. Burning PVC can release harmful chemicals.",
+    "recyclability": "Low"
+  },
+  "LDPE": {
+    "number": 4,
+    "code": "LDPE",
+    "name": "Low-Density Polyethylene",
+    "shortDesc": "A flexible, squeezable plastic found in bags, wraps, and squeeze bottles. Sometimes recyclable at drop-off points.",
+    "description": "LDPE is a softer, more flexible form of polyethylene. It is resistant to moisture and chemicals, and is easy to process into thin films. While considered safe, it is less commonly recycled through curbside programmes.",
+    "uses": [
+      "Plastic shopping bags and bin liners",
+      "Bread bags and frozen food bags",
+      "Squeezable bottles (ketchup, mustard)",
+      "Cling film and stretch wrap",
+      "Furniture covers and dry cleaning bags",
+      "Flexible lids and container covers"
+    ],
+    "recycling": "Not always accepted curbside, but many supermarkets have drop-off bins for plastic bag recycling. Can be recycled into bin liners, furniture, and floor tiles.",
+    "recyclability": "Moderate"
+  },
+  "PP": {
+    "number": 5,
+    "code": "PP",
+    "name": "Polypropylene",
+    "shortDesc": "A heat-resistant, lightweight plastic used for yogurt pots, bottle caps, and microwave-safe containers.",
+    "description": "Polypropylene has a high melting point compared to other common plastics, making it suitable for hot-fill liquids and microwave use. It is lightweight, tough, and resists moisture and chemicals. PP is increasingly being accepted in recycling programmes.",
+    "uses": [
+      "Yogurt containers and margarine tubs",
+      "Bottle caps and closures",
+      "Microwave-safe food containers",
+      "Straws and disposable cutlery",
+      "Medicine bottles",
+      "Automotive parts and battery cases",
+      "Reusable food storage containers"
+    ],
+    "recycling": "Increasingly accepted in curbside recycling. Can be recycled into brooms, brushes, garden rakes, bicycle racks, and automotive parts.",
+    "recyclability": "Moderate to High"
+  },
+  "PS": {
+    "number": 6,
+    "code": "PS",
+    "name": "Polystyrene",
+    "shortDesc": "Known as Styrofoam in its expanded form. Used for takeaway containers, packaging peanuts, and disposable cups.",
+    "description": "Polystyrene comes in solid and expanded (foam) forms. Expanded polystyrene (EPS), commonly called Styrofoam, is lightweight and an excellent insulator. However, it is one of the most problematic plastics for the environment because it breaks into tiny pieces and is very difficult to recycle economically.",
+    "uses": [
+      "Takeaway food containers and cups",
+      "Styrofoam packaging peanuts",
+      "Disposable plates and bowls",
+      "CD and DVD cases",
+      "Egg cartons (foam type)",
+      "Insulation boards in construction",
+      "Protective packaging for electronics"
+    ],
+    "recycling": "Rarely accepted in curbside recycling due to contamination and low economic value. Some specialised drop-off facilities exist. Can be recycled into insulation, rulers, and licence plate frames.",
+    "recyclability": "Very Low"
+  },
+  "OTHER": {
+    "number": 7,
+    "code": "OTHER",
+    "name": "Other Plastics",
+    "shortDesc": "A catch-all category including polycarbonate, ABS, nylon, and bioplastics. Generally not recyclable in standard programmes.",
+    "description": "Category 7 includes all plastics that do not fit into categories 1–6. This includes polycarbonate, ABS (used in LEGO bricks), nylon, acrylic, and newer bioplastics like PLA. Some of these plastics may contain BPA. Recycling options are very limited for most category 7 plastics.",
+    "uses": [
+      "Large water cooler bottles",
+      "Baby bottles (older polycarbonate types)",
+      "Car headlamp lenses",
+      "Safety glasses and visors",
+      "Nylon stockings and fishing line",
+      "LEGO bricks (ABS)",
+      "Compostable cups and cutlery (PLA bioplastic)",
+      "Phone cases"
+    ],
+    "recycling": "Rarely recyclable through standard programmes. Some bioplastics can be industrially composted. Check local facilities for specific guidance.",
+    "recyclability": "Very Low"
+  }
+}

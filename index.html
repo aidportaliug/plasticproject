@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Identify different types of plastic using simple household tests. An interactive plastic detection tool by Engineers Without Borders Norway.">
+  <title>Plastic Detection – Engineers Without Borders Norway</title>
+  <link rel="icon" type="image/png" href="ewb%20favicon.png">
+  <link rel="apple-touch-icon" href="ewb%20favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="https://iug.no/" class="header-logo">
+        <img src="EWB Logo.png" alt="Ingeniører Uten Grenser – Engineers Without Borders Norway">
+      </a>
+
+      <nav class="header-nav" id="mainNav">
+        <a href="https://iug.no/">Masterprojects</a>
+        <a href="https://iug.no/">Experience Reports</a>
+        <a href="https://iug.no/" class="active">Plastic Database</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://iug.no/minside" class="btn-login">Login</a>
+        <a href="https://iug.no/stott-oss/bli-medlem" class="btn-signup">Sign Up</a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="page-container">
+
+      <h1 class="page-title">Plastic Detection</h1>
+
+
+
+      <!-- Plastic Category Buttons -->
+      <div class="plastic-categories" id="plasticCategories">
+        <a class="plastic-cat-btn" data-plastic="PET" href="https://en.wikipedia.org/wiki/Polyethylene_terephthalate" target="_blank">1 PET</a>
+        <a class="plastic-cat-btn" data-plastic="HDPE" href="https://en.wikipedia.org/wiki/High-density_polyethylene" target="_blank">2 HDPE</a>
+        <a class="plastic-cat-btn" data-plastic="PVC" href="https://en.wikipedia.org/wiki/Polyvinyl_chloride" target="_blank">3 PVC</a>
+        <a class="plastic-cat-btn" data-plastic="LDPE" href="https://en.wikipedia.org/wiki/Low-density_polyethylene" target="_blank">4 LDPE</a>
+        <a class="plastic-cat-btn" data-plastic="PP" href="https://en.wikipedia.org/wiki/Polypropylene" target="_blank">5 PP</a>
+        <a class="plastic-cat-btn" data-plastic="PS" href="https://en.wikipedia.org/wiki/Polystyrene" target="_blank">6 PS</a>
+        <button class="plastic-cat-btn" data-plastic="OTHER" onclick="showPlasticInfo('OTHER')">7 OTHER</button>
+      </div>
+
+
+
+      <div class="quiz-container" id="quizContainer">
+        <div id="quizContent">
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="plastic-info-overlay" id="plasticInfoOverlay" onclick="closeInfoOverlay(event)">
+    <div class="plastic-info-panel" id="plasticInfoPanel">
+      <button class="info-close-btn" onclick="closePlasticInfo()" aria-label="Close">&times;</button>
+      <div id="plasticInfoContent">
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="EWB Logo.png" alt="Ingeniører Uten Grenser">
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>EWB Norway</h4>
+          <a href="https://iug.no/om-oss/om-oss">About Us</a>
+          <a href="https://iug.no/vaart-arbeid/prosjekter">Projects</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="https://iug.no/personvernerklaering">Privacy Policy</a>
+          <a href="https://iug.no/">Terms of Use</a>
+        </div>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.facebook.com/iugnorge" target="_blank" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/iugnorge/" target="_blank" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/iugnorge" target="_blank" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
